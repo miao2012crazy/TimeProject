@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.memory.timeapp.ui.CustomVideoView
+            android:layout_centerInParent="true"
+            android:id="@+id/custom_video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+        <FrameLayout
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:text="进入应用"
+                android:id="@+id/btn_start"
+                android:layout_gravity="center"
+                android:background="#99ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40" />
+        </FrameLayout>
+
+    </RelativeLayout>
+</layout>
